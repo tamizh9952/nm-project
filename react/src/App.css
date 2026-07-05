@@ -1,0 +1,85 @@
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+h1 {
+  color: aqua;
+  margin-bottom: 25px;
+}
+
+.search-section {
+  margin-bottom: 30px;
+}
+
+.search-section input {
+  width: 250px;
+  padding: 12px;
+  border: 1px solid gray(107, 108, 111);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-section button {
+  padding: 12px 20px;
+  margin-left: 10px;
+  border: none;
+  background: blue;
+  color: rgb(255, 244, 244);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.search-section button:hover {
+  background: blue;
+}
+
+.card {
+  background: rgb(212, 121, 212);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.flag {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.box {
+  background: #3d7b48;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.box h3 {
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.alert {
+  margin-top: 20px;
+  background: rgb(205, 14, 14);
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+}
